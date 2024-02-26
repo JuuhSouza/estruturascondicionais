@@ -1,0 +1,97 @@
+@font-face{
+    font-family: fonte;
+    src: url(fonte/AnitypeRedwood-1.otf);
+
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black ;
+    text-align: center;
+    font-family: fonte;
+
+
+}
+
+.formulario{
+    color: #F2BE24;
+    background-color: black;
+
+}
+
+img{
+    width: 30em;
+    margin-top: 5em;
+    border-radius: 2em;
+}
+
+h1{
+    font-size: 4em;
+    margin: 1.2em;
+
+}
+
+p{
+    font-size: 2em;
+
+}
+
+input{
+    font-size: 2em;
+    box-shadow: 2px 2px 2px #F2BE24;
+}
+
+/* botao */
+button{
+    font-size: 1em;
+    background-color: #F2BE24;
+    border-radius: 2em;
+    font-size: 2em;
+    padding: 20px;
+    margin: 20px;
+}
+
+button:hover{
+    box-shadow: 2px 2px white;
+    filter: opacity(40%);
+}
+/* fianl botao */
+
+footer{
+    color: #F2BE24;
+    font-size: 2em;
+    margin: 2em;
+}
+
+@media all and (max-width: 820px){
+
+    h1{
+        font-size: 3em;
+        margin: 1em;
+    
+    }
+    button{
+        font-size: 2px;
+        background-color: #F2BE24;
+        border-radius: 2em;
+        font-size: 2em;
+    }
+
+    img{
+        width: 20em;
+
+    }
+
+    footer{
+        font-size: 1.4em;
+        margin: 1em;
+    }
+
+
+
+
+}

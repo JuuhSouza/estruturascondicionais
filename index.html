@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="https://image.pngaaa.com/148/5028148-middle.png">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estruturas condicionais</title>
+</head>
+<body>
+    
+    <div class="formulario">
+        <h1> Gosta de assistir animes? Quer ver algo novo? digite sua idade para darmos uma recomendação.</h1>
+        <p>digite sua idade:</p>
+
+        <input type="number" name="" id="idadeInput">
+
+        <button onclick="VerificarIdade()"> Verificar </button>
+
+    </div>
+
+    <img src="https://i.pinimg.com/originals/be/53/fc/be53fc5350400539c44b3bc7c2552fe9.gif" alt="">
+
+    <footer> Desenvolvidao por Júlia Souza | 2024 &copf;</footer>
+
+    <script>
+        function VerificarIdade(){
+            var idade = parseInt(document.getElementById("idadeInput").value); //parseInt para identificar um numero para n confundir com uma string//
+            
+            if (idade>=18) {
+                window.location.href = 'maior.html';
+            } else {
+                window.location.href = 'menor.html';
+            }
+        }
+
+
+    </script>
+
+    
+
+</body>
+</html>
